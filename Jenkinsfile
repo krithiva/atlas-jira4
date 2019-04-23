@@ -4,7 +4,7 @@ pipeline {
   }
   environment {
     ORG = 'krithiva'
-    APP_NAME = 'jira'
+    APP_NAME = 'jira-new'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
   stages {
